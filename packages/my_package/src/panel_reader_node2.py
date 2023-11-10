@@ -213,5 +213,5 @@ if __name__ == '__main__':
     # create the node
     node = PanelReaderNode(node_name='panel_reader_node')
     # Create a rate
-    rospy.Timer(rospy.Duration(1.0/10.0), node.callback)
+    rospy.Timer(rospy.Duration(1.0/15.0), node.callback)
     rospy.spin()
