@@ -24,7 +24,7 @@ a template for your new repository.
 ### 3. Build the code
 In a terminal, use the following command to build the code :
 
-dts devel build -l
+dts devel build -f
 
 
 ### 4. Run on your duckiebot
